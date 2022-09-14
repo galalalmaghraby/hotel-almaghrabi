@@ -55,11 +55,11 @@ section.banner h1{
   z-index: 2;
   color: #D7C0AE;
   text-align: center;
-  font-size: 60px;
+  font-size: 50px;
 }
 section.banner h1 em{
-  font-size: 70px;
-  line-height: 1.3;
+  font-size: 40px;
+  line-height: 1.5;
 }
 /*Section ========= Banner end*/
 /*Section ========= About start*/

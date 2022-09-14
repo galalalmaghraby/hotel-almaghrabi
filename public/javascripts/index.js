@@ -79,10 +79,10 @@ function changeLang(type) {
         mapLink.innerHTML = "map"
         languageLink.innerHTML = "language"
         // banner
-        headerOfBanner.innerHTML = 'Welcome in <br> <em>OYO</em>'
+        headerOfBanner.innerHTML = 'Welcome in <br> <em>The most beautiful palaces</em>'
         // about
         aboutHeader.innerHTML = '<em>About Us</em>'
-        aboutContent.innerHTML = 'OYO The best choice to have fun and relax The excellent services and warm hospitality of Nozol Al ShakreenO Hotel will make your stay an unforgettable experience. The hotel offers an opportunity to enjoy a wide range of services, including family room, Wi-Fi in public areas, elevator, car park, The rooms are carefully equipped to include the best amenities, hair dryer, in room safe, coffee/tea maker, satellite TV in all rooms. The wide range of services in the hotel to ensure your comfort leave you plenty of options to spend your time during your stay. Nozol Al Shakreen Hotel is a smart choice for travelers to Madinah, as it provides a relaxing and relaxing stay.'
+        aboutContent.innerHTML = 'The most beautiful palaces for furnished apartments is The best choice to have fun and relax The excellent services and warm hospitality of Nozol Al ShakreenO Hotel will make your stay an unforgettable experience. The hotel offers an opportunity to enjoy a wide range of services, including family room, Wi-Fi in public areas, elevator, car park, The rooms are carefully equipped to include the best amenities, hair dryer, in room safe, coffee/tea maker, satellite TV in all rooms. The wide range of services in the hotel to ensure your comfort leave you plenty of options to spend your time during your stay. Nozol Al Shakreen Hotel is a smart choice for travelers to Madinah, as it provides a relaxing and relaxing stay.'
         // images
         imagesHeader.innerHTML = 'Hotel Images'
         // service
@@ -100,8 +100,8 @@ function changeLang(type) {
         serviceHeaderFour.innerHTML = "Special Needs Care"
         serviceContentFour.innerHTML = "We provide them with all the services that guarantee them complete comfort through the hotel services"
         // service Five
-        serviceHeaderFive = "car park"
-        serviceContentFive = "The hotel has a fully secured car park to keep guests' cars"
+        serviceHeaderFive.innerHTML = "car park"
+        serviceContentFive.innerHTML = "The hotel has a fully secured car park to keep guests' cars"
         // warnings
         warningsHeader.innerHTML = 'Warnings'
         warningsContect.innerHTML = 'No smoking inside the hotel'
@@ -124,7 +124,7 @@ function changeLang(type) {
     }else{
         // nav
         homeLink.innerHTML = "الرئيسيه"
-        aboutLink.innerHTML = "حولنا"
+        aboutLink.innerHTML = "وصف الفندق"
         imagesLink.innerHTML = "صور الفندق"
         serviceLink.innerHTML = "الخدامات"
         WarningLink.innerHTML = "التحذيرات"
@@ -133,10 +133,10 @@ function changeLang(type) {
         mapLink.innerHTML = "الخريطه"
         languageLink.innerHTML = "اللغه  "
         // banner
-        headerOfBanner.innerHTML = 'مرحبا بك في <br> <em>OYO</em>'
+        headerOfBanner.innerHTML = 'مرحبا بك في <br> <em>أروع القصور</em>'
         //about
-        aboutHeader.innerHTML = '<em>حولنا</em>'
-        aboutContent.innerHTML = 'OYO <br /> الخيار الأفضل للاستمتاع والاسترخاء. الخدمات الممتازة وكرم الضيافة لفندق <br> Nozol Al ShakreenO <br> سيجعل إقامتك تجربة لا تُنسى. يوفر الفندق فرصة للاستمتاع بمجموعة واسعة من الخدمات ، بما في ذلك غرفة عائلية ، واي فاي في المناطق العامة ، مصعد ، موقف سيارات ، الغرف مجهزة بعناية لتشمل أفضل وسائل الراحة ، مجفف شعر ، خزنة داخل الغرفة ، قهوة / شاي صانع ، قنوات فضائية في جميع الغرف. توفر لك المجموعة الواسعة من الخدمات في الفندق لضمان راحتك الكثير من الخيارات لقضاء وقتك أثناء إقامتك. فندق نزل الشكرين هو خيار ذكي للمسافرين إلى المدينة المنورة ، حيث يوفر إقامة مريحة وهادئة.        '
+        aboutHeader.innerHTML = '<em>وصف الفندق</em>'
+        aboutContent.innerHTML = 'أجمل القصور للشقق المفروشة هو الخيار الأفضل للاستمتاع والاسترخاء. الخدمات الممتازة وكرم الضيافة سيجعل إقامتك تجربة لا تُنسى. يوفر الفندق فرصة للاستمتاع بمجموعة واسعة من الخدمات ، بما في ذلك غرفة عائلية ، واي فاي في المناطق العامة ، مصعد ، موقف سيارات ، الغرف مجهزة بعناية لتشمل أفضل وسائل الراحة ، مجفف شعر ، خزنة داخل الغرفة ، قهوة / شاي صانع ، قنوات فضائية في جميع الغرف. توفر لك المجموعة الواسعة من الخدمات في الفندق لضمان راحتك الكثير من الخيارات لقضاء وقتك أثناء إقامتك. فندق نزل الشكرين هو خيار ذكي للمسافرين إلى المدينة المنورة ، حيث يوفر إقامة مريحة وهادئة.'
         // images
         imagesHeader.innerHTML = 'صور الفندق'
         // service
@@ -154,8 +154,8 @@ function changeLang(type) {
         serviceHeaderFour.innerHTML = 'رعاية ذوي الاحتياجات الخاصة'
         serviceContentFour.innerHTML = 'نقدم لهم جميع الخدمات التي تضمن لهم الراحة التامة من خلال الخدمات الفندقية '
         // service Five
-        serviceHeaderFive = "موقف للسيارات"
-        serviceContentFive = "يوجد بالفندق موقف للسيارات مؤمن بالكامل للحفاظ علي السيارات التابعه للضيوف"
+        serviceHeaderFive.innerHTML = "موقف للسيارات"
+        serviceContentFive.innerHTML = "يوجد بالفندق موقف للسيارات مؤمن بالكامل للحفاظ علي السيارات التابعه للضيوف"
         // warnings
         warningsHeader.innerHTML = 'تحذير'
         warningsContect.innerHTML = "ممنوع التدخين داخل الفندق"
