@@ -1,0 +1,347 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+nav.navbar{
+  background-color: #B7C4CF !important ;
+  height: fit-content;
+  z-index: 9999;
+  width: 100%;
+  padding: 8px 0px !important;
+}
+nav.navbar a{
+  color: black !important;
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+nav.navbar a img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-left: 30px;
+}
+button.navbar-toggler{
+  margin-right: 30px;
+}
+#navbarSupportedContent{
+  background-color: #B7C4CF;
+  padding: 20px;
+}
+/*Section ========= Banner start*/
+section.banner{
+  min-height: 100vh;
+  background-image: url("/images/banner.webp");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.banner::after{
+  content: "";
+  background-color: black;
+  opacity: 60%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+section.banner h1{
+  position: relative;
+  z-index: 2;
+  color: #D7C0AE;
+  text-align: center;
+  font-size: 60px;
+}
+section.banner h1 em{
+  font-size: 70px;
+  line-height: 1.3;
+}
+/*Section ========= Banner end*/
+/*Section ========= About start*/
+section.about,section.images{
+  min-height: 90vh;
+  padding: 50px 20px;
+  margin: 70px 0px;
+  background-color: #EEE3CB;
+  text-align: center;
+}
+h1.title{
+  color: #595250;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+section.about div{
+  box-sizing: border-box;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+section.about div img,section.about div p{
+  margin: 30px 0px;
+}
+section.about div p{
+  text-align: left; 
+  line-height:1.8;
+  font-weight: 500;
+  font-size: 18px;
+}
+hr.small {
+  max-width: 70px;
+  height: 5px;
+  background-color: #B7C4CF;
+}
+/*Section ========= About end*/
+/*Section ========= images start*/
+section.images{
+  background-color: #333;
+  box-sizing: border-box;
+}
+section.images h1{
+  line-height: 1.5;
+  color: rgb(193, 193, 193);
+}
+section.images div.parent-images{
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 50px 0px;
+}
+div.image{
+  height: 300px;
+  overflow: hidden;
+  margin: 20px;
+  box-sizing: border-box;
+  padding: 0px ;
+}
+div.image img{
+  width: 100%;
+  height: 100%;
+  transition: .5s all ease;
+}
+div.image img:hover{
+  transform: scale(1.2);
+}
+/*Section ========= images end*/
+/*Section ========= services start*/
+section.services {
+  margin: 50px 0px;
+  padding: 50px 20px;
+  min-height: 80vh;
+  background-image: url('/images/hotel-background.jpg');
+  background-size: 100% 100%;
+  text-align: center;
+}
+section.services div.parent-services{
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 70px 0px;
+}
+section.services div.service{
+  width: 350px;
+  height: 450px;
+  background-color:white ;
+  border-radius: 6px;
+  box-shadow: 0px 0px 6px .2px black;
+  margin: 20px 0px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+section.services div.service img{
+  height: 60%;
+  width: 100%;
+}
+section.services div.service h3{
+  margin: 20px 5px;
+  font-size: 20px;
+}
+section.services div.service p{
+  font-size: 17px;
+  margin: 5px;
+}
+/*Section ========= services end*/
+/*Section ========= Warnings start*/
+section.warnings p{
+  font-size: 40px !important;
+}
+/*Section ========= Warnings end*/
+/*Section ========= book start*/
+section.book{
+  min-height: 100vh;
+  margin: 100px 0px;
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #ddd;
+}
+section.book form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+section.book form div{
+  margin: 30px 0px;
+  text-align: left;
+
+}
+section.book form div label {
+font-size: 20px;
+text-transform: capitalize;
+}
+section.book form input{
+  height: 50px;
+}
+section.book form div.col-12{
+  display: flex;
+  justify-content: center;
+}
+section.book form div.col-12 button{
+  background-color: #B7C4CF;
+  border: none;
+  color: #333;
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  transition: .5s all ease;
+}
+section.book form div.col-12 button:hover{
+  color: #B7C4CF;
+  background-color: #333;
+}
+section.book div.contact{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+section.book div.contact div.parent-social{
+  background-color: #B7C4CF;
+  width: 400px;
+  height: 200px;
+  margin: 50px 50px 0px;
+  border-radius: 16px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 6px .1px black;
+}
+section.book div.contact div.parent-social p{
+  margin: 30px 30px 10px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #333 !important;
+}
+section.book div.contact div.parent-social div{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+section.book div.contact div.parent-social div i{
+  margin-right: 10px;
+  font-size: 50px;
+  color: green;
+  
+}
+section.book div.contact div.parent-social div a{
+  margin-left: 10px;
+  text-decoration: none !important;
+  color: #333 !important;
+  font-size: 20px;
+}
+/*Section ========= book end*/
+/*Section ========= rate start*/
+section.rate{
+  min-height: 700px;
+  margin: 50px 0px;
+  background-color: #B7C4CF;
+  padding: 50px 10px;
+}
+section.rate hr.small{
+  background-color: #595250 !important;
+}
+section.rate h1{
+  text-align: center;
+}
+section.rate div.reviews{
+  width: 100%;
+  padding: 30px;
+  min-height: 350px;
+}
+section.rate div.reviews {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+section.rate div.reviews form{
+  margin: 30px auto;
+
+}
+section.rate div.reviews form h2,section.rate div.reviews div.comments h2{
+  text-transform: capitalize;
+  text-align: center;
+  color: #333;
+  font-size: 30px;
+}
+section.rate div.reviews form textarea{
+  height: 200px;
+  width: 100%;
+  margin: 30px 0px;
+  padding: 10px;
+  font-size: 25px;
+  border: none !important;
+  outline: none !important;
+}
+section.rate div.reviews form textarea::placeholder{
+  display: flex;
+  align-items: flex-start;
+}
+section.rate div.reviews form div.col-12{
+  display: flex;
+  justify-content: center;
+}
+section.rate div.reviews form div.col-12 button{
+  background-color: #333 !important;
+  border: none !important;
+  outline: none !important;
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+}
+section.rate div.reviews div.comments{
+  margin: 30px auto;
+}
+section.rate div.reviews div.comments div{
+  max-height: 300px;
+  background-color: white !important;
+  padding: 5px ;
+  overflow-y: scroll;
+  margin-top: 40px;
+}
+section.rate div.reviews div.comments div p{
+  margin: 10px 0px;
+  width: 100%;
+  font-size: 18px;
+  background-color: #B7C4CF;
+  padding: 10px 20px;
+  font-weight: 500;
+}
+
+section.rate div.reviews div.comments div p i{
+  font-size: 23px;
+  margin-right: 20px;
+}
+/*Section ========= rate end*/
+/*Section ========= Map start*/
+section.map{
+  min-height: 70vh;
+  display: flex;
+  margin: 100px 0px 0px;
+}
+section.map iframe{
+  width: 100%;
+  height: 70vh;
+}
+/*Section ========= Map end*/
