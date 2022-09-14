@@ -58,7 +58,7 @@ section.banner h1{
   font-size: 50px;
 }
 section.banner h1 em{
-  font-size: 40px;
+  font-size: 50px;
   line-height: 1.5;
 }
 /*Section ========= Banner end*/
@@ -345,3 +345,23 @@ section.map iframe{
   height: 70vh;
 }
 /*Section ========= Map end*/
+/* footer ========= start */
+footer{
+min-height: 50px;
+background-color: #333;
+}
+footer p{
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  font-size: 20px;
+  padding: 10px 0px;
+  margin: 0px;
+  color: white;
+  text-transform: capitalize;
+}
+footer p a{
+  text-decoration: none !important;
+  color: #EEE3CB;
+}
+/* footer ========= end */
